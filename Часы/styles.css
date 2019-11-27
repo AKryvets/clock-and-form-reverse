@@ -1,0 +1,23 @@
+.container {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    border-radius: 15px;
+    background: #e7dce336;
+}
+
+.block {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    font-family: Arial;
+    font-size: 100px;
+    text-align: center;
+}
+
+.container__hours,
+.container__minutes {
+    border-right: 2px solid silver;
+}
+
